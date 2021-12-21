@@ -10,4 +10,7 @@ public class HelloApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(HelloApplication.class, args);
 	}
+	/*
+	 * 
+	 * */
 }
