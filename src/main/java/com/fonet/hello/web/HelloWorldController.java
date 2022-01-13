@@ -12,5 +12,11 @@ public class HelloWorldController {
 	public String welcome() {
 		return "Welcome to Hello World!";
 	}
+
+	@RequestMapping("/bye")
+	@ResponseBody
+	public String bye() {
+		return "Bye Bye Hepiniz...";
+	}
 	
 }
