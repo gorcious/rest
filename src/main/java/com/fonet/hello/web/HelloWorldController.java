@@ -36,5 +36,12 @@ public class HelloWorldController {
 	public String clean() {
 		return "Clean Everything...";
 	}
+
+	@RequestMapping("/develop")
+	@ResponseBody
+	public String develop() {
+		System.out.print("develop");
+		return "DEV...";
+	}
 	
 }
