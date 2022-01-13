@@ -24,5 +24,11 @@ public class HelloWorldController {
 	public String say() {
 		return "Say Something...";
 	}
+
+	@RequestMapping("/clean")
+	@ResponseBody
+	public String clean() {
+		return "Clean Everything...";
+	}
 	
 }
