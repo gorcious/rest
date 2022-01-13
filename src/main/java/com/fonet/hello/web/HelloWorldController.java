@@ -18,5 +18,11 @@ public class HelloWorldController {
 	public String bye() {
 		return "Bye Bye Hepiniz...";
 	}
+
+	@RequestMapping("/clear")
+	@ResponseBody
+	public String clear() {
+		return "CLEAR...";
+	}
 	
 }
