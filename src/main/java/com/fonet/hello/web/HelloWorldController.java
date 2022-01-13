@@ -19,4 +19,10 @@ public class HelloWorldController {
 		return "Bye Bye Hepiniz...";
 	}
 	
+	@RequestMapping("/say")
+	@ResponseBody
+	public String say() {
+		return "Say Something...";
+	}
+	
 }
